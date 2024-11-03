@@ -1,0 +1,44 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:your_organization:Lobby;1",
+  "@type": "Interface",
+  "displayName": "Lobby Model",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "widthOfRoom",
+      "schema": "double",
+      "displayName": "Width of Room"
+    },
+    {
+      "@type": "Property",
+      "name": "lengthOfRoom",
+      "schema": "double",
+      "displayName": "Length of Room"
+    },
+    {
+      "@type": "Property",
+      "name": "numberOfDoors",
+      "schema": "integer",
+      "displayName": "Number of Doors"
+    },
+    {
+      "@type": "Property",
+      "name": "numberOfLights",
+      "schema": "integer",
+      "displayName": "Number of Lights"
+    },
+    {
+      "@type": "Property",
+      "name": "flooring",
+      "schema": "string",
+      "displayName": "Flooring"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "lightIntensity",
+      "displayName": "Light Intensity",
+      "schema": "double"
+    }
+  ]
+}

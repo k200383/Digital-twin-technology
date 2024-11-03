@@ -1,0 +1,56 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:your_organization:Office;1",
+  "@type": "Interface",
+  "displayName": "Office Model",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "lengthOfRoom",
+      "schema": "double",
+      "displayName": "Length of Room"
+    },
+    {
+      "@type": "Property",
+      "name": "widthOfRoom",
+      "schema": "double",
+      "displayName": "Width of Room"
+    },
+    {
+      "@type": "Property",
+      "name": "numberOfGlassDivisions",
+      "schema": "integer",
+      "displayName": "Number of Glass Divisions"
+    },
+    {
+      "@type": "Property",
+      "name": "numberOfDoors",
+      "schema": "integer",
+      "displayName": "Number of Doors"
+    },
+    {
+      "@type": "Property",
+      "name": "flooring",
+      "schema": "string",
+      "displayName": "Flooring"
+    },
+    {
+      "@type": "Property",
+      "name": "numberOfLights",
+      "schema": "integer",
+      "displayName": "Number of Lights"
+    },
+    {
+      "@type": "Property",
+      "name": "numberOfPeople",
+      "schema": "integer",
+      "displayName": "Number of People"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "occupancy",
+      "displayName": "Occupancy",
+      "schema": "integer"
+    }
+  ]
+}
