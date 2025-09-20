@@ -47,7 +47,7 @@ Digital-twin-technology/
 │   ├── Office.dtdl.json
 │   └── ComputerLab.dtdl.json
 ├── models/                 # 3D model files
-├── docs/                   # Research documentation
+├── docs/                   # Research documentation and thesis
 └── README.md
 ```
 
